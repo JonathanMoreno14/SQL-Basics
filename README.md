@@ -1,9 +1,6 @@
 # SQL-Basics
 SQL Basics learn by doing
 
-
-# SQL Basics
-
 SQL (pronounced "ess-que-el") is a standard language for accessing databases.
 
 This is a list of basic SQL commands that will also include live examples using **MS SQL Server** and also instructions on how to setup your own MS SQL Server environment. 
