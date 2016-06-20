@@ -80,7 +80,8 @@ WHERE column_name BETWEEN value1 AND value2;
  
  ON
  
- ##### INNER JOIN
+ **INNER JOIN**
+ 
 
  * INNER JOIN - The INNER JOIN keyword selects all rows from both tables as long as there is a   match between the columns in both tables.
  * ON - Is part of the INNER JOINS 
