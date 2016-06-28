@@ -432,6 +432,70 @@ This is a screencast of the Microsoft SQL Server Management Studio
 
 
 
+```sql
+Create procedure <procedure_Name> 
+As 
+Begin 
+<SQL Statement> 
+End 
+Go
+```
+
+```sql
+/*
+ Create Procedure 
+*/
+Create procedure GetIDInfo 
+As 
+Begin 
+SELECT * FROM IDInfo
+End 
+Go
+```
+
+
+```sql
+/*
+ Alter the  procedure
+*/
+ALTER procedure GetIDInfo 
+As 
+Begin 
+SELECT Top 20 * FROM IDInfo
+End 
+Go
+```
+
+```sql
+/*
+Drop procedure
+*/
+DROP PROCEDURE GetIDInfo 
+GO
+```
+
+```sql
+/*
+Stored Procedure with Parameters 
+*/
+CREATE PROCEDURE Get_IDInfo
+@NumID varchar(50)
+AS
+SELECT ID 
+FROM IDInfo
+WHERE ID = @NumID 
+GO
+```
+
+```sql
+/*
+Executing Stored procedures with Parameters
+This execution procedure is an example 
+*/
+EXEC Get_IDInfo 1
+```
+
+
 ***
 
 #### References
